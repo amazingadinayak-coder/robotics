@@ -1,0 +1,54 @@
+void setup() {
+  // put your setup code here, to run once:
+DDRD=0B11111111; 
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+ // 1 = 0B00000110
+ // 2 = 0B01011011
+ // 3 = 0B01001111
+ // 4 = 0B01100110
+ // 5 = 0B01101101
+ // 6 = 0B01111101
+ // 7 = 0B00000111
+ // 8 = 0B11111111
+ // 9 = 0B01101111
+ // A = 0B01110111
+ // B = 0B01111100
+ // C = 0B00111001
+ // D = 0B01011110
+ // E = 0B01111001
+ // F = 0B01110001
+ // GO BACKWARDS 
+PORTD = 0B00000110;
+delay(1000);
+PORTD = 0B01011011;
+delay(1000);
+PORTD = 0B01001111;
+delay(1000);
+PORTD = 0B01100110;
+delay(1000);
+PORTD = 0B01101101;
+delay(1000);
+PORTD = 0B01111101;
+delay(1000);
+PORTD = 0B00000111;
+delay(1000);
+PORTD = 0B11111111;
+delay(1000);
+PORTD = 0B01101111;
+delay(1000);
+PORTD = 0B01110111;
+delay(1000);
+PORTD = 0B01111100;
+delay(1000);
+PORTD = 0B00111001;
+delay(1000);
+PORTD = 0B01011110;
+delay(1000);
+PORTD = 0B01111001;
+delay(1000);
+PORTD = 0B01110001;
+delay(1000);
+}
